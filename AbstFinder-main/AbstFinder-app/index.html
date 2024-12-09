@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="shortcut icon" href="img/logo-sem-nome-transformed.png" type="image/x-icon">
+     <!-- google fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+      <!-- fim -->
+    <title>AbstFinder</title>
+</head>
+<body>
+
+    <header>
+
+        <img id="logo" src="img/logo-com-nome.png" alt="Logo AbstFinder">
+
+        <div class="fundo">
+
+            <img class="localiza" src="img/localizador.png" alt="localizador">
+
+            <p id="selecionador">Selecione a Cidade</p>
+
+            <select name="cidade" id="cidade">
+
+                <option value="zero">Nenhuma</option>
+                <option value="moreno">Moreno</option>
+                
+            </select>
+
+        </div>
+
+        <!-- Ícone de menu -->
+        <img id="conf" src="img/configuracao.png" alt="Menu">
+
+    <!-- Menu Navbar -->
+        <nav id="navbar">
+            <ul>
+
+                <li><a href="#home">Conta</a></li>
+                <li id="sair"><a href="#sobre">Sair</a></li>
+        
+            </ul>
+        </nav>
+
+    </header>
+
+    <div id="modal-sair" class="modal">
+        <div class="modal-content">
+            <p>Você tem certeza que deseja sair?</p>
+            <button id="confirmar-sair" class="btn7">Confirmar</button>
+            <button id="cancelar-sair" class="btn7">Cancelar</button>
+        </div>
+    </div>
+    
+
+
+    <div id="mensagem" style="display: none;">
+        Por favor, selecione uma cidade para visualizar os postos disponíveis.
+    </div>
+
+    <main>
+
+        <div class="box">   
+
+            <h1 id="titulo">Posto Cristal</h1>
+            <p id="endereco">Posto de combustível <br> Rodovia BR-232, km 22</p>
+            <div class="hr"></div>
+
+            <a href="https://ul.waze.com/ul?place=ChIJB_0LrKADqwcR6axhK2_qYGI&ll=-8.09767430%2C-35.08640390&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location" class="btn">
+            Ir com Waze</a>
+
+
+        </div>
+
+        <div class="box">
+
+            <h1 id="titulo1">Posto Vale dos Eucaliptos</h1>
+            <p id="endereco1">Posto de combustível <br> Av. Dr. Sofronio Portela, 4043</p>
+            <div class="hr1"></div>
+
+            <a href="https://ul.waze.com/ul?place=ChIJw8LQXDwDqwcR9ARS3f-TUA8&ll=-8.11915820%2C-35.10386510&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location" class="btn1">
+                Ir com Waze</a>
+            
+        </div>
+
+        <div class="box">
+
+            <h1 id="titulo2">Multi Postos</h1>
+            <p id="endereco2">Posto de combustível <br> Rodovia BR-232, Km 20</p>
+            <div class="hr2"></div>
+
+            <a href="https://ul.waze.com/ul?place=ChIJZ_YoHQADqwcRnESnbc5vZwg&ll=-8.09505060%2C-35.06988430&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location" class="btn2">
+                Ir com Waze</a>
+            
+        </div>
+
+        <div class="box">
+
+            <h1 id="titulo3">Branca</h1>
+            <p id="endereco3">Posto de combustível <br> Av. Dr. Sofrônio Portela, 4043</p>
+            <div class="hr3"></div>
+
+            <a href="https://ul.waze.com/ul?place=ChIJfz4EuXICqwcRvZZJfkXHcmY&ll=-8.11915820%2C-35.10386510&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location" class="btn3">
+                Ir com Waze</a>
+            
+        </div>
+
+        <div class="box">
+
+            <h1 id="titulo4">Posto América</h1>
+            <p id="endereco4">Posto de combustível <br> BR-232, Km 32</p>
+            <div class="hr4"></div>
+
+            <a href="https://ul.waze.com/ul?place=ChIJaVrBdAQAqwcR3Jan1t3W1h0&ll=-8.11210760%2C-35.20784220&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location" class="btn4">
+                Ir com Waze</a>
+            
+        </div>
+
+
+    </main>
+    
+
+    
+    <script src="index.js"></script>
+
+</body>
+</html>
