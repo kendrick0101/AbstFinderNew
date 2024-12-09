@@ -1,0 +1,605 @@
+/* Geral */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #f4fcf6fc;
+}
+
+
+.flex{
+     display: flex;
+}
+ 
+.interface{
+     max-width: 1280px;
+     margin: 0 auto;
+}
+
+/* Cabeçalho */
+
+#logo{
+
+    height: 55px;
+    width: auto;
+    margin-top: 3.3%;
+    position: absolute;
+    left: -1%;
+
+}
+
+.fundo{
+
+    position: absolute;
+    top: 2.4%;
+    left: 20%;
+    background-color: #1d99c8;
+    padding: 23px 130px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+
+}
+
+#selecionador{
+
+    font-size: 14px;
+    position: absolute;
+    top: 28%;
+    left: 12%;
+    font-weight: 300;
+
+}
+
+.localiza{
+
+    padding: 0%;
+    width: 15px;
+    height: auto;
+    position: absolute;
+    left: 4%;
+    top: 27%;
+
+}
+
+#cidade{
+    color: white;
+    background-color: #28bdf3;
+    border: 1px solid #22a5d4;
+    border-radius: 15px;
+    padding: 2px;
+    position: absolute;
+    top: 25%;
+    left: 66%;
+    width: 81px;
+    font-size: 11px;
+    font-weight: 400;
+
+}
+
+#conf{
+    width: 40px;
+    height: auto;
+    position: absolute;
+    margin-top: 5%;
+    position: absolute;
+    right: 1%;
+    cursor: pointer;
+
+}
+
+#selecionador-tipo{
+
+    color: #1d99c8;
+    font-size: 10px;
+    position: absolute;
+    top: 11.3%;
+    left: 3%;
+}
+
+#tipo-posto{
+
+    background-color: #24b4e9;
+    border-radius: 10px;
+    border-color: #28bdf3;
+    width: 118px;
+    font-size: 8px;
+    position: absolute;
+    top: 11.2%;
+    left: 37%;
+
+}
+
+#mensagem-aviso{
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 21px; 
+    font-weight: 500;
+    color: #333;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(39, 149, 238, 0.541);
+    text-align: left;
+    width: 73%;
+    height: auto; 
+    line-height: 1.6;
+
+}
+
+/* Postos */
+
+#localizador{
+
+    width: auto;
+    height: 150px;
+    position: absolute;
+    top: 9.3%;
+    left: -5%;
+
+}
+
+#localizador1{
+
+    width: auto;
+    height: 150px;
+    position: absolute;
+    top: 24.3%;
+    left: -5%;
+
+}
+
+#localizador2{
+
+    width: auto;
+    height: 150px;
+    position: absolute;
+    top: 39.3%;
+    left: -5%;
+
+}
+
+#localizador3{
+
+    width: auto;
+    height: 150px;
+    position: absolute;
+    top: 54.3%;
+    left: -5%;
+
+}
+
+#localizador4{
+
+    width: auto;
+    height: 150px;
+    position: absolute;
+    top: 69.3%;
+    left: -5%;
+
+}
+
+#titulo{
+
+    color: #1d99c8;
+    font-size: 17px;
+    font-weight: 600;
+    position: absolute;
+    top: 15%;
+    left: 14%;
+
+}
+
+#endereco{
+
+    color: #1d99c8;
+    font-size: 15px;
+    font-weight: 300;
+    position: absolute;
+    top: 20%;
+    left: 14%;
+
+}
+
+.hr{
+
+    width: 90%;
+    background-color: black;
+    padding-top: 1px;
+    position: absolute;
+    top: 28%;
+    left: 5%;
+
+}
+
+#titulo1{
+
+    color: #1d99c8;
+    font-size: 17px;
+    font-weight: 600;
+    position: absolute;
+    top: 29.5%;
+    left: 14%;
+
+}
+
+#endereco1{
+
+    color: #1d99c8;
+    font-size: 15px;
+    font-weight: 300;
+    position: absolute;
+    top: 35%;
+    left: 14%;
+
+}
+
+.hr1{
+
+    width: 90%;
+    background-color: black;
+    padding-top: 0.5px;
+    position: absolute;
+    top: 43%;
+    left: 5%;
+
+}
+
+#titulo2{
+
+    color: #1d99c8;
+    font-size: 17px;
+    font-weight: 600;
+    position: absolute;
+    top: 45%;
+    left: 14%;
+
+}
+
+#endereco2{
+
+    color: #1d99c8;
+    font-size: 15px;
+    font-weight: 300;
+    position: absolute;
+    top: 50%;
+    left: 14%;
+
+}
+
+.hr2{
+
+    width: 90%;
+    background-color: black;
+    padding-top: 1px;
+    position: absolute;
+    top: 58%;
+    left: 5%;
+
+}
+
+#titulo3{
+
+    color: #1d99c8;
+    font-size: 17px;
+    font-weight: 600;
+    position: absolute;
+    top: 60%;
+    left: 14%;
+
+}
+
+#endereco3{
+
+    color: #1d99c8;
+    font-size: 15px;
+    font-weight: 300;
+    position: absolute;
+    top: 65%;
+    left: 14%;
+
+}
+
+.hr3{
+
+    width: 90%;
+    background-color: black;
+    padding-top: 1px;
+    position: absolute;
+    top: 73%;
+    left: 5%;
+
+}
+
+#titulo4{
+
+    color: #1d99c8;
+    font-size: 17px;
+    font-weight: 600;
+    position: absolute;
+    top: 75%;
+    left: 14%;
+
+}
+
+#endereco4{
+
+    color: #1d99c8;
+    font-size: 15px;
+    font-weight: 300;
+    position: absolute;
+    top: 80%;
+    left: 14%;
+
+}
+
+.hr4{
+
+    width: 90%;
+    background-color: black;
+    padding-top: 1px;
+    position: absolute;
+    top: 88%;
+    left: 5%;
+
+}
+
+/* link waze */
+
+.btn{
+    padding: 7px 20px;
+    position: absolute;
+    top: 18%;
+    left: 64%;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    background: linear-gradient(to right, #66b3ff, #357ae8); /* Gradiente inicial */
+    background-size: 200%;
+    background-position: left;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-position 0.4s ease, color 0.3s;
+}
+
+.btn:hover {
+    background-position: right; /* Move o gradiente da esquerda para a direita */
+    color: #f0f0f0; /* Leve alteração na cor do texto */
+}
+
+.btn1{
+    padding: 7px 20px;
+    position: absolute;
+    top: 33.5%;
+    left: 64%;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    background: linear-gradient(to right, #66b3ff, #357ae8); /* Gradiente inicial */
+    background-size: 200%;
+    background-position: left;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-position 0.4s ease, color 0.3s;
+}
+
+.btn1:hover {
+    background-position: right; /* Move o gradiente da esquerda para a direita */
+    color: #f0f0f0; /* Leve alteração na cor do texto */
+}
+
+.btn2{
+    padding: 7px 20px;
+    position: absolute;
+    top: 48%;
+    left: 64%;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    background: linear-gradient(to right, #66b3ff, #357ae8); /* Gradiente inicial */
+    background-size: 200%;
+    background-position: left;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-position 0.4s ease, color 0.3s;
+}
+
+.btn2:hover {
+    background-position: right; /* Move o gradiente da esquerda para a direita */
+    color: #f0f0f0; /* Leve alteração na cor do texto */
+}
+
+.btn3{
+    padding: 7px 20px;
+    position: absolute;
+    top: 63%;
+    left: 64%;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    background: linear-gradient(to right, #66b3ff, #357ae8); /* Gradiente inicial */
+    background-size: 200%;
+    background-position: left;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-position 0.4s ease, color 0.3s;
+}
+
+.btn3:hover {
+    background-position: right; /* Move o gradiente da esquerda para a direita */
+    color: #f0f0f0; /* Leve alteração na cor do texto */
+}
+
+.btn4{
+    padding: 7px 20px;
+    position: absolute;
+    top: 78%;
+    left: 64%;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    background: linear-gradient(to right, #66b3ff, #357ae8); /* Gradiente inicial */
+    background-size: 200%;
+    background-position: left;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-position 0.4s ease, color 0.3s;
+}
+
+.btn4:hover {
+    background-position: right; /* Move o gradiente da esquerda para a direita */
+    color: #f0f0f0; /* Leve alteração na cor do texto */
+}
+
+#mensagem {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 21px; 
+    font-weight: 500;
+    color: #333;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(39, 149, 238, 0.541);
+    text-align: justify;
+    width: 80%;
+    height: auto; 
+    line-height: 1.6;
+}
+
+/* Estilo do Navbar */
+#navbar {
+    position: fixed;
+    top: 0;
+    right: -100%; /* Esconde fora da tela inicialmente */
+    height: 100%;
+    width: 150px;
+    background-color: #07274b;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    padding: 20px;
+    box-shadow: -4px 0 6px rgba(0, 0, 0, 0.2);
+    transition: right 0.3s ease-in-out;
+    z-index: 1000;
+}
+
+#navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+#navbar ul li {
+    margin: 10px 0;
+}
+
+#navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    transition: background-color 0.3s ease;
+}
+
+/* Classe ativa para exibir o menu */
+#navbar.active {
+    right: 0; /* Move o menu para dentro da tela */
+}
+
+#navbar ul li a[href="#sobre"]:hover {
+        color: red; /* Muda a cor do texto para vermelho ao passar o mouse */
+}
+    
+
+/* Estilo do Modal */
+.modal {
+    display: none; /* Oculto por padrão */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Fundo semitransparente */
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Certifique-se de que fique acima de outros elementos */
+}
+
+/* Conteúdo do Modal */
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    color: black;
+    
+}
+
+.modal-content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.modal-content .btn7 {
+    margin: 0 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+.modal-content .btn7:hover {
+    background-color: #575757;
+}
+
+.modal-content .btn7#confirmar-sair {
+    background-color: rgb(158, 3, 3);
+}
+
+.modal-content .btn7#confirmar-sair:hover {
+    background-color: rgb(82, 1, 1);
+}
+
+#confirmar-sair{
+
+    position: absolute;
+    top: 52%;
+    left: 20%;
+    padding: 4px;
+    font-size: 12px;
+    background-color: #575757;
+
+}
+
+#cancelar-sair{
+
+    position: absolute;
+    top: 52%;
+    left: 53%;
+    padding: 4px;
+    font-size: 12px;
+
+}
